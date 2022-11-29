@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
-LABEL maintainer="konova@novaitg.com"
-ENV REFRESHED_AT 2021-12-12
+LABEL maintainer="binarytechteam@gmail.com"
+ENV REFRESHED_AT 2022-11-29
 RUN apt-get -yqq update; apt-get -yqq install nginx
 
 ADD index.html /var/www/html/index.html
